@@ -58,27 +58,31 @@ The figure (shown above) reflects this process, starting with gathering informat
 The last component—**Generating and Gathering Pictures**—is under development. The idea behind this component is to either generate or retrieve relevant images to accompany sections of the article during its generation. If you'd like to contribute, feel free to make a pull request! I have already opened a feature request for this functionality, and your collaboration is welcome.
 
 ## Get Started
+
 To run the app locally:
+
 1. Clone this repository:
     ```bash
-    git clone <repo-url>
+    git clone https://github.com/Azzedde/AIrticle_writer.git
     ```
-2. Install the required dependencies:
+
+2. Install the required dependencies using the `pyproject.toml` file:
     ```bash
-    pip install -r requirements.txt
+    pip install .
     ```
-3. Create a `.env` file that contains the following variables:
-```
-OPENAI_MODEL_NAME = <the model name>
-OPENAI_API_KEY= <your api key>
-SERPER_API_KEY= <your api key>
-```
+
+3. Create a `.env` file in the root of the project with the following variables:
+    ```bash
+    OPENAI_MODEL_NAME = <the model name>
+    OPENAI_API_KEY = <your OpenAI API key>
+    SERPER_API_KEY = <your Serper API key>
+    ```
 
 4. Run the Streamlit app:
     ```bash
-    streamlit run app.py
+    streamlit run Home.py
     ```
-
+    
 ## Dependencies
 The project requires the following dependencies (listed in `pyproject.toml`):
 - numpy
