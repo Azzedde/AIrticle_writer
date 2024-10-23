@@ -1,0 +1,32 @@
+[project]
+name = "AIrticle_writer"
+version = "0.1.0"
+description = "A robust and elegant article writer assistant that creates (almost) ready for posting articles providing main ideas from the user"
+authors = [{ name = "AIT SAID Azzedine Idir", email = "ja_aitsaid@esi.dz" }]
+readme = "README.md"
+license = { text = "MIT" }
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "beautifulsoup4==4.12.3",
+    "langchain==0.3.4",
+    "langchain_chroma==0.1.4",
+    "langchain_community==0.3.3",
+    "langchain_core==0.3.12",
+    "langchain_openai==0.2.3",
+    "langchain_text_splitters==0.3.0",
+    "pyperclip==1.9.0",
+    "python-dotenv==1.0.1",
+    "Requests==2.32.3",
+    "streamlit==1.38.0"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+
+[tool.isort]
+profile = "black"
