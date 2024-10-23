@@ -13,6 +13,7 @@ This app leverages a robust backend built using **LangChain**, which enables the
 
 ## How It Works
 The app performs the following steps to generate the article:
+![image](https://github.com/user-attachments/assets/94aab32f-1ca8-4605-9dc2-52e9260184eb)
 
 1. **Scraping Resources**: The system gathers relevant articles from external knowledge sources based on search queries generated from the user's request.
 2. **Summarizing**: Raw content is summarized into key ideas.
